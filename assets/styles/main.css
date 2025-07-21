@@ -180,14 +180,15 @@ footer {
             's1 s1 s2 s2 s3 s3'
             's4 s4 s5 s5 s6 s6'
             ' s7 s7 s8 s8 s9 s9'
-            ' s10 s10 s11 s11 s12 s12';
+            ' s10 s10 s11 s11 s12 s12'
+            'f f f f f f f f';
     }
 }
 @media (max-width:500px) {
     body {
         grid-template-areas:
         's1 s1''s2 s2''s3 s3''s4 s4''s5 s5''s6 s6''s7 s7'
-        's8 s8''s9 s9''s10 s10''s11 s11''s12 s12';
+        's8 s8''s9 s9''s10 s10''s11 s11''s12 s12''f';
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
